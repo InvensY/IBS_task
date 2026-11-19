@@ -1,0 +1,35 @@
+input {
+  background-color: #071819;
+  border: solid 1px #00e5c3;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  padding: 15px 20px;
+  color: #9cb8c0;
+  font-size: 18px;
+}
+.search-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+input::placeholder {
+  font-size: 18px;
+}
+.status-select {
+  background-color: #071819;
+  border: solid 1px #00e5c3;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 20px;
+  color: #9cb8c0;
+  padding: 15px 10px;
+  font-size: 18px;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' stroke='%23a0a3b8' stroke-width='2' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}

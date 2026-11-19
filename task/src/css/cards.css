@@ -1,0 +1,65 @@
+.cards-field {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  padding-top: 40px;
+}
+.card {
+  width: 100%;
+  max-width: 300px;
+  background-color: #071819;
+  border-radius: 20px;
+  border: solid 1px #13bfa9;
+  text-align: center;
+  padding-top: 20px;
+}
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.text-field {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: left;
+  gap: 10px;
+}
+.name {
+  font-size: clamp(18px, 2.2vw, 28px);
+  font-weight: 700;
+  color: #eaf5f7;
+  max-width: none;
+  word-break: break-word;
+}
+.status {
+  font-size: clamp(16px, 1.8vw, 24px);
+  font-weight: 700;
+}
+.status--alive {
+  color: green;
+}
+.status--dead {
+  color: red;
+}
+.status--unknown {
+  color: #a7a7a7;
+}
+.speciec {
+  font-size: clamp(14px, 1.6vw, 20px);
+  font-weight: 700;
+  color: #eaf5f7;
+}
+.loading,
+.error,
+.nothing {
+  padding-top: 40px;
+  font-size: clamp(20px, 3vw, 38px);
+  font-weight: 700;
+  color: #eaf5f7;
+  text-align: center;
+}
